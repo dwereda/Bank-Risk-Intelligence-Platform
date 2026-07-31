@@ -39,7 +39,7 @@ The objective is to identify customer segments with elevated default risk and pr
 
 ## Dashboard
 
-[Credit Risk Dashboard](images/dashboard.png)
+![Credit Risk Dashboard](images/dashboard.PNG)
 
 ## Key Findings
 
