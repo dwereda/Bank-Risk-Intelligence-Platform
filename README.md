@@ -78,7 +78,7 @@ bank-risk-intelligence/
 ## Folder Descriptions
 
 - `data/raw/` - original dataset
-- `data/processed/` - cleande dataset
+- `data/processed/` - cleaned dataset
 - `src/` - Python data-cleaning script
 - `sql/` - SQL analysis queries
 - `powerbi/` - Power BI dashboard
