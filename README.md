@@ -46,7 +46,9 @@ The objective is to identify customer segments with elevated default risk and pr
 - The overall portfolio default rate was approximately 22%.
 - Default rates increased substantially as credit grades deteriorated.
 - Grade G had the highest observed default rate, while Grade A had the lowest.
-
+- Debt consolidation and medical loans showed the highest default rates by loan purpose.
+- The 50+ age group had the highest default rate among the analyzed age groups.
+  
 ## Project Structure
 
 ```text
@@ -91,3 +93,29 @@ Public credit risk dataset used for educational and portfolio purposes.
 ## Disclaimer
 
 This project uses public and anonymized data. It does not contain real bank customer data.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/dwereda/Bank-Risk-Intelligence-Platform.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Bank-Risk-Intelligence-Platform
+```
+
+3. Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the data-cleaning script:
+
+```bash
+python src/clean_data.py
+```
