@@ -42,7 +42,7 @@ SELECT
         WHEN person_age < 25 THEN '18-24'
         WHEN person_age < 35 THEN '25-34'
         WHEN person_age < 45 THEN '35-44'
-        WHEN person_age < 55 THen '45-54'
+        WHEN person_age < 55 THEN '45-54'
         ELSE '55+'
     END AS age_group,
     COUNT(*) AS clients,
